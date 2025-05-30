@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="NoIndicatorStyle" parent="">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="BottomNavStyle" parent="Widget.MaterialComponents.BottomNavigationView">
+        <item name="itemPaddingTop">10dp</item>
+        <item name="itemPaddingBottom">0dp</item>
+        <item name="itemRippleColor">@android:color/transparent</item>
+        <item name="itemActiveIndicatorStyle">@style/NoIndicatorStyle</item>
+    </style>
+</resources>
