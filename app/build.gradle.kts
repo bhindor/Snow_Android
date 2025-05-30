@@ -53,7 +53,7 @@ dependencies {
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
 
-    //NAVIGATION
+    // NAVIGATION
     implementation(libs.androidx.navigation.fragment)
     implementation(libs.androidx.navigation.ui)
 }
