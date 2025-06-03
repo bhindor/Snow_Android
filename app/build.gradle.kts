@@ -56,4 +56,7 @@ dependencies {
     // NAVIGATION
     implementation(libs.androidx.navigation.fragment)
     implementation(libs.androidx.navigation.ui)
+
+    //OKHTTP
+    implementation(libs.okhttp)
 }
